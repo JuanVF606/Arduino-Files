@@ -1,0 +1,9 @@
+body {
+    background: url(./img/fondo2.jpg);
+    background-repeat: none;
+    text-align: center;
+}
+
+#link{
+    border-bottom: 15px;
+}

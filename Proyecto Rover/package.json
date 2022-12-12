@@ -1,0 +1,35 @@
+{
+  "name": "proyecto-rover",
+  "version": "1.0.0",
+  "description": "Web version ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "SET NODE_ENV=DEVELOPMENT& nodemon backend/server.js",
+    "prod": "SET NODE_ENV=PRODUCTION& nodemon backend/server.js"
+  },
+  "author": "Matias Venegas & Juan Venegas",
+  "license": "ISC",
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@material-ui/core": "^4.12.4",
+    "@mui/material": "^5.10.13",
+    "@mui/styled-engine-sc": "^5.10.6",
+    "bcrypt": "^5.1.0",
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^1.32.0",
+    "cookie-parser": "^1.4.6",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "jwt": "^0.2.0",
+    "mongoose": "^6.7.2",
+    "nodemailer": "^6.8.0",
+    "styled-components": "^5.3.6",
+    "validator": "^13.7.0",
+    "yarn": "^1.22.19"
+  }
+}

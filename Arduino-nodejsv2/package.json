@@ -1,0 +1,23 @@
+{
+  "name": "arduino-nodejsv2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "http": "^0.0.1-security",
+    "jsonschema": "^1.2.6",
+    "mosca": "^2.8.3",
+    "mqtt": "^4.3.7",
+    "mysql": "^2.18.1",
+    "serialport": "^10.4.0",
+    "socket.io": "^2.0.4",
+    "yarn": "^1.22.19"
+  }
+}

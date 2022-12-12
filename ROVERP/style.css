@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fjalla One', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url(wallpaper.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.logo img {
+    width: 220px;
+    height: auto;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 6%;
+}
+
+.home {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    text-align: center;
+}
+
+.home-text {
+    position: absolute;
+    color: rgba(167, 167, 167, 0.856);
+    transform: translate(-60%, -48%);
+    top: 50%;
+    left: 50%;
+    font-size: 70px;
+}
+
+.home-text span {
+    color: rgba(168, 24, 24, 0.801);
+}
+
+.btn {
+    display: inline-block;
+    color: rgba(167, 167, 167, 0.856);
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    background-color: #fff;
+    transition: .42s;
+
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: rgba(168, 24, 24, 0.801);
+}
+
+/* camara section */
+
+.c-camara{
+    display: block; text-align: center; border-radius: 15px;
+    transform: translate(-50%,-50%);
+}
+
+.camara{
+    max-width: 75%;
+    min-width: 40%;
+    position: absolute;
+
+}
+
+/* Responsive css */
+
+@media(max-width:788px) {
+    header {
+        padding: 25px 3%;
+        transition: .3s;
+    }
+}
+
+@media(max-width:750px) {
+    .home-text {
+        font-size: 60px;
+        transition: .5s;
+    }
+
+    .btn {
+        padding: 8px 18px;
+        transition: .5s;
+    }
+}
+
+@media(max-width:730px) {
+    .home-text {
+        font-size: 45px;
+        transition: .5s;
+    }
+
+    .btn {
+        padding: 6px 12px;
+        transition: .5s;
+    }
+}
